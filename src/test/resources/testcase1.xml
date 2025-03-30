@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCase1 Suite">
+    <test name="TestCase1 Test">
+        <classes>
+            <class name="com.xk.TestCase1">
+                    <methods>
+                        <include name="testMethod1"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
